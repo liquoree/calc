@@ -1,0 +1,62 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full {
+    width: 30vw;
+    height: 38vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sections {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sections:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid white;
+    padding: 1.5vw 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.npt {
+    width: 100%;
+    height: 100%;
+    margin: 3vw;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    font-size: 2vw;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1.5vw;
+    overflow: hidden;
+}
+.btn {
+    flex-basis: 25%;
+    color: #fff;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 1.5vw;
+    font-family: Helvetica, sans-serif;
+    padding: 2vw 0;
+    cursor: pointer;
+    transition: 0.1s;
+    user-select: none;
+}
+.btn:hover {
+    background-color: rgb(42, 42, 42);
+}
+.zero {
+    flex-basis: 50%;
+    border-bottom-left-radius: 20px;
+}
+.equally {
+    border-bottom-right-radius: 20px;
+}
